@@ -344,7 +344,7 @@ a.active {
 /* skill section
 ==================================================*/
 #skill {
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 .chart {
@@ -508,7 +508,8 @@ a.active {
 
 .portfolio-inner {
     padding-bottom: 0 !important;
-    padding-top: 227px;
+    padding-top: 100px;
+    clear: both;
 }
 
 .portfolio_container .col-md-12 {
@@ -737,14 +738,9 @@ a.active {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'PyeongChangPeace-Light';
         font-size: 50px;
         line-height: 50px;
-    }
-
-    #home,
-    .disply-table {
-        height: 600px;
     }
 
     .about-border {
